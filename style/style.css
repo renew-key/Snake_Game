@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #myCanvas {
+  border: 5px solid lightgreen;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #myScore {
+  margin: 1rem 0rem;
+}
+body #myScore,
+body #myScore2 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+body #myScore2 {
+  margin-bottom: 1rem;
+}
+body #Start {
+  padding: 0.25rem 0.5rem;
+  background-color: yellow;
+  font-size: 1.15rem;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
