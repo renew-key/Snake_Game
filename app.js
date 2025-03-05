@@ -136,6 +136,11 @@ function drawDirction(snakeX, snakeY) {
     myFruit.pickLocation();
     score++;
     document.getElementById("myScore").innerHTML = `Score:${score}`;
+    if (score > heightestScore) {
+      document.getElementById(
+        "myScore2"
+      ).innerHTML = `The Heighest Score:${score}`;
+    }
   } else {
     snake.pop();
   }
